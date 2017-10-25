@@ -1,5 +1,5 @@
 # OPCSM-VAI
-Development environment for automation base on state diagrams program way and powered by OPC.
+Development environment for automation, base on state diagrams programing and powered by OPC.
 
 *****************************
 Antonio Tamairón Pérez - 2016
