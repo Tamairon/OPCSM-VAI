@@ -26,13 +26,13 @@ each element has a variable (MyVariable) when is created in sharing memory syste
 
 OPCSM VAI has a toolbox with several elements.
 
- - STATE
+ - STATE -
    Put 1 when is triggered and put 0 when is not marked. 
    Has a special mode "TOGGLE" then when is trigger change the previous value and
    keep it until new trigger.
    
- - TRANSITION
-   Leave to continue program if the variable assigned is 1 in another case, pause the branch.
+ - TRANSITION -
+   Leaves to continue program if the variable assigned is 1 in another case, pause the branch.
    
  - CONDITION
  - COUNTER
