@@ -21,13 +21,15 @@ Well, when you have implemented the process (program as state diagram) you can s
 At least one of the elements must be marked (like PETRI nets). The runtimer execute those marked elements and go to next elements 
 according to arrows. Each element has a special function (see below) when the element is triggered.
 
-The interpreter use a memory shared system in order to permit a data sharing between elements for all documents (entire project), then
-each element has a variable (MyVariable) when is created in sharing memory system.
+The interpreter use a memory shared system in order to permit a data sharing between elements for all documents (entire project) then
+each element have a own variable (MyVariable) generated in sharing memory system, when it is created.
+
+<b>NOTE: Mark means the element is prepared to be executed (green filled). Un-marked means the element wait until is marked again.</b>
 
 OPCSM VAI has a toolbox with several elements.
 
  - STATE -
-   Put 1 when is triggered and put 0 when is not marked. 
+   Put 1 in 'MyVariable' when is triggered and put 0 when is not marked. 
    Has a special mode "TOGGLE" then when is trigger change the previous value and
    keep it until new trigger.
    
