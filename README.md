@@ -12,11 +12,11 @@ A. ABOUT OPCSM VAI (OPC Statematic Virtual Automation Interpreter)
 This software is an interpreter for automation and GUI development environment to implement automation process through state diagrams.
 This one is part of project in progress, to automate easly any process.
 
-The environmet works through project -> documents -> objects, then;
+The environmet works through project <-> documents <-> objects then:
 
-1. Need to create a project
-2. Need to add so many documents as going to use.
-3. Need to add objects and link these in order to compose a tree according to the process to be implemented.
+1. Need to create a project (comprises all into it)
+2. Need to add so many documents as going to use (several diagrams distributed are possible to organize your project)
+3. Need to add objects and link these in order to compose a tree according to the process going to implement.
 
 HOW OPCSM VAI works?
 Well, when you have implemented the process (program as state diagram) you can simulate it. 
