@@ -5,6 +5,8 @@ Development environment for automation and IoT (Internet of Things) base on stat
 Antonio Tamairón Pérez - 2016
 *****************************
 
+![opcsm vai](https://user-images.githubusercontent.com/19364208/32052563-f6292758-ba58-11e7-8d45-56d7eeab7c93.png)
+
 A. ABOUT OPCSM VAI (OPC Statematic Virtual Automation Interpreter)
 ------------------------------------------------------------------
 This software is an interpreter for automation and GUI development environment to implement automation process through state diagrams.
