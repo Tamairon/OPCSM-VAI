@@ -81,6 +81,6 @@ B. How to install
 -----------------
 1. Install OPC Core Components Redistributable previous to use the program.
    - Download it from OPC foundation 
-     <br /> https://opcfoundation.org/developer-tools/developer-kits-classic/core-components (Need registration)
+     <br /> https://opcfoundation.org/developer-tools/developer-kits-classic/core-components (needs registration)
    
 2. Launch OPCSM.exe and enjoy!
