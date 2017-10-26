@@ -15,7 +15,7 @@ This one is part of project in progress, to automate easly any process.
 The environmet works through project <-> documents <-> objects then:
 
 1. Need to create a project (comprises all into it)
-2. Need to add so many documents as going to use (several diagrams distributed are possible to organize your project)
+2. Need to add so many documents as going to use (several diagrams distributed on docs are possible to organize your project)
 3. Need to add objects and link these in order to compose a tree according to the process going to implement.
 
 HOW OPCSM VAI works?
