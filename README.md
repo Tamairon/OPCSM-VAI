@@ -60,7 +60,7 @@ OPCSM VAI has a toolbox with several elements.
  - STOP
    Stop a simulation branch.
 
-.Other interactive elements
+ Other interactive elements
 
  - INDICATOR
    Shows value of a variable.
@@ -69,7 +69,7 @@ OPCSM VAI has a toolbox with several elements.
    Draw value of a variable in a time-graph.
    
  - BUTTON
-   Permits at user interact with environment.
+   Permits to user interacts with environment.
 
 The environment now could be used as learning environment to undertand automation, play with OPC servers and hardware like PLCs, Domotic devices,
 and all things that could interact with OPC. The next step is create a kernel for low cost hardware in order to execute the implemented program
