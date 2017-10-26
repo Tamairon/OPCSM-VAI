@@ -80,7 +80,7 @@ with OPCSM VAI directly in hardware with RTOS as freeRTOS.
 B. How to install
 -----------------
 1. Install OPC Core Components Redistributable previous to use the program.
-   - Can load from OPC foundation 
-   "https://opcfoundation.org/developer-tools/developer-kits-classic/core-components" (Need registration for download)
+   - Download it from OPC foundation 
+     <br /> https://opcfoundation.org/developer-tools/developer-kits-classic/core-components (Need registration)
    
 2. Launch OPCSM.exe and enjoy!
