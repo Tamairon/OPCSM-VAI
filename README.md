@@ -29,14 +29,17 @@ each element have a own variable (MyVariable) generated in sharing memory system
 <b>NOTE: Mark means the element is prepared to be executed (green filled). Un-marked means the element wait until is marked again.</b>
 
 OPCSM VAI has a toolbox with several elements.
-
- - STATE -
-   Puts "1" in 'MyVariable' when is triggered and puts "0" when is not marked. 
-   Has a special mode "TOGGLE" then when is trigger change the previous value and
-   keep it until new trigger.
+ 
+ - SET -
+   Put "1" in MyVariable when is triggered and keep it.
+   NOTE: with TOGGLE value change "1" to "0" or "0" to "1" everytime that it's triggered.
    
- - TRANSITION -
-   Leaves to continue program if the variable assigned is "1" in another case, pause the branch.
+ - RESET -
+   Put "0" in MyVariable when is triggered and keep it.
+   NOTE: with TOGGLE value change "1" to "0" or "0" to "1" everytime that it's triggered.
+   
+ - BIT STATUS -
+   Stop branch until "variable source" == "SET '1'" or "RESET '0'" according to the setting stablished for the variable source.
    
  - CONDITION
    Function similar to transition but complex conditions. Powered by conditions scripts.
@@ -61,6 +64,8 @@ OPCSM VAI has a toolbox with several elements.
    
  - STOP
    Stop a simulation branch.
+
+ NOTE: In general a "LOOP" mode is available, to execute in loop the object after it has been executed once at least.
 
  Other interactive elements
 
